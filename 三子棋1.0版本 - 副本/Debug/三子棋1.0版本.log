@@ -1,0 +1,5 @@
+﻿  game.c
+  test.c
+  正在生成代码...
+C:\Users\史金伟\source\repos\三子棋1.0版本\game.c(96): warning C4715: “IsFull”: 不是所有的控件路径都返回值
+  三子棋1.0版本.vcxproj -> C:\Users\史金伟\source\repos\三子棋1.0版本\Debug\三子棋1.0版本.exe

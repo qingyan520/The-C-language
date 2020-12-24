@@ -50,4 +50,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+<<<<<<< HEAD
 /ConsoleApplication1
+=======
+>>>>>>> 8e7aae1eda44fa662a9149507de0536799d23c4e
