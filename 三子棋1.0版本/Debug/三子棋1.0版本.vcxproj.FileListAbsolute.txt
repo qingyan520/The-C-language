@@ -1,0 +1,2 @@
+C:\Users\史金伟\source\repos\三子棋1.0版本\Debug\三子棋1.0版本.exe
+C:\Users\史金伟\source\repos\三子棋1.0版本\Debug\三子棋1.0版本.pdb

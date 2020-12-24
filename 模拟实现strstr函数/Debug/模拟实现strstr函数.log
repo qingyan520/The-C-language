@@ -1,0 +1,7 @@
+﻿  1.c
+C:\Users\史金伟\source\repos\模拟实现strstr函数\1.c(19,10): warning C4090: “=”: 不同的“const”限定符
+C:\Users\史金伟\source\repos\模拟实现strstr函数\1.c(20,17): warning C4129: “ ”: 不可识别的字符转义序列
+C:\Users\史金伟\source\repos\模拟实现strstr函数\1.c(8,1): warning C4090: “初始化”: 不同的“const”限定符
+C:\Users\史金伟\source\repos\模拟实现strstr函数\1.c(9,1): warning C4090: “初始化”: 不同的“const”限定符
+C:\Users\史金伟\source\repos\模拟实现strstr函数\1.c(10,1): warning C4090: “初始化”: 不同的“const”限定符
+  模拟实现strstr函数.vcxproj -> C:\Users\史金伟\source\repos\模拟实现strstr函数\Debug\模拟实现strstr函数.exe
