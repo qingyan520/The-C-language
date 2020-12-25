@@ -1,2 +1,4 @@
 C:\Users\史金伟\source\repos\do while循环\Debug\do while循环.exe
 C:\Users\史金伟\source\repos\do while循环\Debug\do while循环.pdb
+C:\Users\史金伟\source\The-C-language\do while循环\Debug\do while循环.exe
+C:\Users\史金伟\source\The-C-language\do while循环\Debug\do while循环.pdb

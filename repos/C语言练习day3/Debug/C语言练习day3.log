@@ -1,0 +1,11 @@
+﻿  01.查找内存地址.c
+C:\Users\史金伟\source\repos\C语言练习day3\01.查找内存地址.c(3,1): error C2054: 在“main01”之后应输入“(”
+  02.附加格式.c
+C:\Users\史金伟\source\repos\C语言练习day3\02.附加格式.c(2,14): error C2059: 语法错误:“)”
+C:\Users\史金伟\source\repos\C语言练习day3\02.附加格式.c(3,1): error C2054: 在“main02oid”之后应输入“(”
+  03scanf函数.c
+C:\Users\史金伟\source\repos\C语言练习day3\03scanf函数.c(2,10): error C2059: 语法错误:“)”
+C:\Users\史金伟\source\repos\C语言练习day3\03scanf函数.c(3,1): error C2054: 在“mai03”之后应输入“(”
+  04条件语句.c
+C:\Users\史金伟\source\repos\C语言练习day3\04条件语句.c(3,1): error C2054: 在“main00”之后应输入“(”
+  正在生成代码...

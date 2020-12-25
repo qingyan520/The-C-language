@@ -1,0 +1,5 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\史金伟\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(1,8): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+C:\Users\史金伟\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(1,8): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+C:\Users\史金伟\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(3,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+C:\Users\史金伟\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(3,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)

@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(Project4.c.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  3.简单计算.c
+C:\Users\史金伟\source\repos\Project4.c\3.简单计算.c(7,9): warning C4129: “d”: 不可识别的字符转义序列
+  Project4.c.vcxproj -> C:\Users\史金伟\source\repos\Project4.c\Debug\C语言练习.c.exe

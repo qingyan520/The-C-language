@@ -1,0 +1,2 @@
+﻿源.obj : error LNK2005: _main 已经在 02圆的周长，面积计算.obj 中定义
+C:\Users\史金伟\source\repos\c语言练习day2\Debug\c语言练习day2.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
