@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main5()
+{
+	char arr1[]="hello";
+	char arr2[]="world";
+	strncpy(arr1,arr2,4);
+	printf("%s",arr1);
+}
