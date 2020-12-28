@@ -1,0 +1,2 @@
+C:\Users\史金伟\source\repos\c语言练习day2\Debug\c语言练习day2.exe
+C:\Users\史金伟\source\repos\c语言练习day2\Debug\c语言练习day2.pdb
