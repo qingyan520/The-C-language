@@ -1,0 +1,9 @@
+﻿test.obj : error LNK2005: _compare 已经在 Contact.obj 中定义
+test.obj : error LNK2005: _ModifyContact 已经在 Contact.obj 中定义
+test.obj : error LNK2005: _SearchContact 已经在 Contact.obj 中定义
+test.obj : error LNK2005: _DelContact 已经在 Contact.obj 中定义
+test.obj : error LNK2005: _ShowContact 已经在 Contact.obj 中定义
+test.obj : error LNK2005: _AddContact 已经在 Contact.obj 中定义
+test.obj : error LNK2005: _CheackCapacity 已经在 Contact.obj 中定义
+test.obj : error LNK2005: _Initcontact 已经在 Contact.obj 中定义
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Release\通讯录2.0版本(动态增长版本).exe : fatal error LNK1169: 找到一个或多个多重定义的符号
