@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1.记时表.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4.帮朋友写.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2.输入输出数字.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.税率问题.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5.猜数字.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6.冒泡排序（函数版）.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="8.求两个数的最大公约数.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9.求一个一元二次方程的解.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="10.寻找三个数中的最大值.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11.求一个整数所有的因式.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="12.计算一个数的N次方.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="13.求两数之和和.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14.五人分鱼.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="15.输入一个字母判断其是否为字母.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="16.判断一年是否是闰年.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="17.判断一个数是正数，0，还是负数.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18.解一元二次方程升级版.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="19.交换两个数字位置.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20.斐波那契数列.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21.打印国际象棋棋盘.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22.复习冒泡排序c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="24.判断一个数是不是回文数.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25.数组逆置.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="26.打印三角形图案.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="27.打印特定图案.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28.自定义汉书接口.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="29.杨辉三角.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="30.求二维数组对角线之和.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="31.逆序存放数据.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="32.数组相邻元素之和.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="33.模拟比赛打分.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="34.求一个数的阶乘.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="35.判断一个数字是几位数.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="37.移位用算符.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="38.交换两个数的位置.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="39.求一个整数存储在二进制中的1的个数.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="40.和上一个问题要求相同.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="41.用二分查找一个数的下标并且返回.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="42.判断一个数是否为素数.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="43.求两个数的最大公约数.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="44.最小公倍数.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="45.完数.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="46.黑客帝国数字雨简易版.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="47.盒子接球小游戏.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="48.判断一天是这一年的第几天.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="49.动态内存分配复习.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="50.用指针求数列最大最小值.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="51.指针逆序存放数组元素.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="52.动态内存规划+冒泡排序.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="53.求100-1000内质数的个数.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="54.求3-4的矩阵最大数及行号列号.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="55.二维数组行列元素互换.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="56.直接插入排序.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="56.打印金字塔.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="57.用筛选法求素数.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="58.打印菱形.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="59.求0-100内的素数.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="60.C语言库函数qsort快排.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="61.利用库函数判断是否为字母及大小写字母的转化.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="62.链表的创建、添加、删除.c">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
