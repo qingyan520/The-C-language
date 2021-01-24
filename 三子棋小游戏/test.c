@@ -11,13 +11,13 @@ void game()
 {
 	char board[ROW][LOW] = { 0 };
 	char ret = 0;
-	InBoard(board, ROW, LOW);
-	Print_board(board, ROW, LOW);
+	InBoard(board, ROW, LOW);//初始化数组
+	Print_board(board, ROW, LOW);//打印棋盘
 	while (1)
 	{
-		Player_Move(board, ROW, LOW);
-		Print_board(board, ROW, LOW);
-		ret = Is_Winner(board, ROW, LOW);
+		Player_Move(board, ROW, LOW);//玩家走
+		Print_board(board, ROW, LOW);//电脑走
+		ret = Is_Winner(board, ROW, LOW);//判断游戏是否继续
 		if (ret != 'c')
 		{
 			break;
@@ -30,6 +30,7 @@ void game()
 			break;
 		}
 	}
+	//判断输赢
 	if (ret == '*')
 	{
 		printf("玩家赢\n");
