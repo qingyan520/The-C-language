@@ -1,0 +1,2 @@
+C:\Users\史金伟\source\The-C-language\扫雷\Debug\扫雷.exe
+C:\Users\史金伟\source\The-C-language\扫雷\Debug\扫雷.pdb
