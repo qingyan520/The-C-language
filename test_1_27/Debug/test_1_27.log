@@ -1,0 +1,4 @@
+﻿  test.c
+C:\Users\史金伟\source\The-C-language\test_1_27\test.c(268,27): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+  源.cpp
+  test_1_27.vcxproj -> C:\Users\史金伟\source\The-C-language\test_1_27\Debug\test_1_27.exe
