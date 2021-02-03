@@ -292,63 +292,63 @@
 //}
 
 
-//库函数qsort排序
-//#include<stdio.h>
-//#include<stdlib.h>
-//int compare(const void* e1, const void* e2)
-//{
-//	return *(int*)e1 - *(int*)e2;
-//}
-//int main()
-//{
-//	int arr[10] = { 0,1,2,3,5,6,4,7,9,8 };
-//	qsort(arr, sizeof(arr)/sizeof(arr[0]),sizeof(arr[0]) , compare);
-//	for (int i = 0; i < 10; i++)
-//	{
-//		printf("%d ", arr[i]);
-//	}
-//	return 0;
-//}
-//利用qsort对结构体进行排序
-//#include<stdio.h>
-//#include<stdlib.h>
-//struct stu
-//{
-//	char name[20];
-//	int age;
-//};
-//int compare(const void* e1, const void* e2)
-//{
-//	return (*(struct stu*)e1).name - (*(struct stu*)e2).name;
-//}
-//int main()
-//{
-//	struct stu con[] = { {"张三",10},{"李四",9},{"王五",5} };
-//	qsort(con, sizeof(con) / sizeof(con[0]), sizeof(con[0]), compare);
-//	for (int i = 0; i < 3; i++)
-//	{
-//		printf("%s ", con[i].name);
-//		printf("%d\n", con[i].age);
-//	}
-//	return 0;
-//}
-////利用qsort对字符串进行排序
-//#include<stdio.h>
-//#include<stdlib.h>
-//int compare(const void* e1, const void* e2)
-//{
-//	return *(char*)e1 - *(char*)e2;
-//}
-//int main()
-//{
-//	char str[] = "hello bit";
-//	qsort(str, sizeof(str) / sizeof(str[0]), sizeof(str[0]), compare);
-//	for (int i = 0; i < sizeof(str)/sizeof(str[0]); i++)
-//	{
-//		printf("%c ", str[i]);
-//	}
-//	return 0;
-//}
+库函数qsort排序
+#include<stdio.h>
+#include<stdlib.h>
+int compare(const void* e1, const void* e2)
+{
+	return *(int*)e1 - *(int*)e2;
+}
+int main()
+{
+	int arr[10] = { 0,1,2,3,5,6,4,7,9,8 };
+	qsort(arr, sizeof(arr)/sizeof(arr[0]),sizeof(arr[0]) , compare);
+	for (int i = 0; i < 10; i++)
+	{
+		printf("%d ", arr[i]);
+	}
+	return 0;
+}
+利用qsort对结构体进行排序
+#include<stdio.h>
+#include<stdlib.h>
+struct stu
+{
+	char name[20];
+	int age;
+};
+int compare(const void* e1, const void* e2)
+{
+	return (*(struct stu*)e1).name - (*(struct stu*)e2).name;
+}
+int main()
+{
+	struct stu con[] = { {"张三",10},{"李四",9},{"王五",5} };
+	qsort(con, sizeof(con) / sizeof(con[0]), sizeof(con[0]), compare);
+	for (int i = 0; i < 3; i++)
+	{
+		printf("%s ", con[i].name);
+		printf("%d\n", con[i].age);
+	}
+	return 0;
+}
+//利用qsort对字符串进行排序
+#include<stdio.h>
+#include<stdlib.h>
+int compare(const void* e1, const void* e2)
+{
+	return *(char*)e1 - *(char*)e2;
+}
+int main()
+{
+	char str[] = "hello bit";
+	qsort(str, sizeof(str) / sizeof(str[0]), sizeof(str[0]), compare);
+	for (int i = 0; i < sizeof(str)/sizeof(str[0]); i++)
+	{
+		printf("%c ", str[i]);
+	}
+	return 0;
+}
 
 
 //#include <stdio.h>
