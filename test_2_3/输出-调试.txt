@@ -1,0 +1,13 @@
+﻿“test_2_3.exe”(Win32): 已加载“C:\Users\史金伟\source\The-C-language\test_2_3\Debug\test_2_3.exe”。已加载符号。
+“test_2_3.exe”(Win32): 已加载“C:\Windows\SysWOW64\ntdll.dll”。
+“test_2_3.exe”(Win32): 已加载“C:\Windows\SysWOW64\kernel32.dll”。
+“test_2_3.exe”(Win32): 已加载“C:\Windows\SysWOW64\KernelBase.dll”。
+“test_2_3.exe”(Win32): 已加载“C:\Windows\SysWOW64\vcruntime140d.dll”。
+“test_2_3.exe”(Win32): 已加载“C:\Windows\SysWOW64\ucrtbased.dll”。
+线程 0x2c24 已退出，返回值为 0 (0x0)。
+“test_2_3.exe”(Win32): 已加载“C:\Windows\SysWOW64\kernel.appcore.dll”。
+“test_2_3.exe”(Win32): 已加载“C:\Windows\SysWOW64\msvcrt.dll”。
+“test_2_3.exe”(Win32): 已加载“C:\Windows\SysWOW64\rpcrt4.dll”。
+线程 0x17b0 已退出，返回值为 0 (0x0)。
+线程 0x1930 已退出，返回值为 0 (0x0)。
+程序“[17964] test_2_3.exe”已退出，返回值为 0 (0x0)。
