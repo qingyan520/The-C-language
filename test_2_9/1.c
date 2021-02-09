@@ -1,10 +1,6 @@
 #include<stdio.h>
-int main1()
+int main()
 {
 	printf("dde");
 	return 0;
 }
-
-
-
-
