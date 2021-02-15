@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cec4a915-a52d-4376-b670-d85e90b8a657}</ProjectGuid>
+    <ProjectGuid>{42e154b4-d095-4fec-be33-38c9fdb88846}</ProjectGuid>
     <RootNamespace>test215</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="test_2_15.cpp" />
+    <ClCompile Include="1.c" />
     <ClCompile Include="源.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
