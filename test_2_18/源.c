@@ -24,7 +24,7 @@ void Fnid_val(int* arr, int row, int col, int num)
 		}
 	}
 }
-int main()
+int main1()
 {
 	int arr[4][4] = { 1,2,8,9,
 	2,4,9,12,
