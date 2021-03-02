@@ -1,2 +1,5 @@
-﻿  源.c
+﻿  11.c
+  源.c
+  正在生成代码...
+Debug\源.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
   test_3_2.vcxproj -> C:\Users\史金伟\source\The-C-language\test_3_2\Debug\test_3_2.exe
