@@ -1,0 +1,2 @@
+C:\Users\史金伟\source\The-C-language\test_3_3\Debug\test_3_3.exe
+C:\Users\史金伟\source\The-C-language\test_3_3\Debug\test_3_3.pdb
