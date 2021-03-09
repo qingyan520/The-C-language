@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main2()
+int main()
 {
 	return 0;
 }

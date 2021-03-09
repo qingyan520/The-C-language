@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1.c" />
     <ClCompile Include="21.c" />
     <ClCompile Include="源.c" />
   </ItemGroup>
