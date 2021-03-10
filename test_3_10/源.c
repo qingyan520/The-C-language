@@ -10,8 +10,9 @@ struct stu
 	int i;
 	char c2;
 }S;
-int main()
+int main1()
 {
 	printf("%d",sizeof(S));//12×Ö½Ú
+	return 0;
 }
 
