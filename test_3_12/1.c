@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main3()
+int main()
 {
 	printf("je");
 	return 0;
