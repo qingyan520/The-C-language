@@ -8,7 +8,7 @@
 //	printf("%d %d\n", c1, c2);
 //	return 0;
 //}
-
+//
 //#include<stdio.h>
 //int main() {
 //	int a, b;
@@ -53,18 +53,34 @@
 //	return 0;
 //}
 
-#include<stdio.h>
-int main()
-{
-	int i, j, m = 0, n = 0;
-	i = 8;
-	j = 10;
-	m += i++;//m=m+i++;,m=8
-	n -= --j;//n=n-(--j),n=-9
-	printf("i=%d j=%d m=%d n=%d\n", i, j, m, n);
-	return 0;
-}
+//#include<stdio.h>
+//int main()
+//{
+//	int i, j, m = 0, n = 0;
+//	i = 8;
+//	j = 10;
+//	m += i++;//m=m+i++;,m=8
+//	n -= --j;//n=n-(--j),n=-9
+//	printf("i=%d j=%d m=%d n=%d\n", i, j, m, n);
+//	return 0;
+//}
 //
 //
 
 //动态内存管理
+
+//柔性数组：结构体的最后一位允许是大小未知的数组
+//#include<stdio.h>
+//int main()
+//{
+//
+//	return 0;
+//}
+
+
+#include<stdio.h>
+int main1()
+{
+	FILE;
+	return 0;
+}
