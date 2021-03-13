@@ -1,2 +1,1 @@
 C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\x64\Debug\通讯录2.0版本(动态增长版本).exe
-C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\x64\Debug\通讯录2.0版本(动态增长版本).pdb

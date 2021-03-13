@@ -1,4 +1,9 @@
-﻿LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/FORCE”规范)
+﻿  Contact.c
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(20,18): warning C4133: “=”: 从“PenInfo *”到“PeoInfo *”的类型不兼容
+  test.c
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(20,18): warning C4133: “=”: 从“PenInfo *”到“PeoInfo *”的类型不兼容
+  正在生成代码...
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/FORCE”规范)
 test.obj : warning LNK4006: AddContact 已在 Contact.obj 中定义；已忽略第二个定义
 test.obj : warning LNK4006: CheackCapacity 已在 Contact.obj 中定义；已忽略第二个定义
 test.obj : warning LNK4006: DelContact 已在 Contact.obj 中定义；已忽略第二个定义
