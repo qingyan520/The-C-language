@@ -226,9 +226,9 @@
 
 
 //ÎÄ¼þ²Ù×÷
-#include<stdio.h>
-int main()
-{
-	FILE* p = fopen("test.txt", "r");
-	return 0;
-}
+//#include<stdio.h>
+//int main()
+//{
+//	FILE* p = fopen("test.txt", "r");
+//	return 0;
+//}

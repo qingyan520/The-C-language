@@ -1,7 +1,15 @@
 ﻿  Contact.c
-C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(20,18): warning C4133: “=”: 从“PenInfo *”到“PeoInfo *”的类型不兼容
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,34): warning C4047: “函数”:“FILE **”与“char [12]”的间接级别不同
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,21): warning C4024: “fopen_s”: 形参和实参 1 的类型不同
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,44): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,41): warning C4024: “fopen_s”: 形参和实参 3 的类型不同
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,1): warning C4047: “初始化”:“FILE *”与“errno_t”的间接级别不同
   test.c
-C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(20,18): warning C4133: “=”: 从“PenInfo *”到“PeoInfo *”的类型不兼容
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,34): warning C4047: “函数”:“FILE **”与“char [12]”的间接级别不同
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,21): warning C4024: “fopen_s”: 形参和实参 1 的类型不同
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,44): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,41): warning C4024: “fopen_s”: 形参和实参 3 的类型不同
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,1): warning C4047: “初始化”:“FILE *”与“errno_t”的间接级别不同
   正在生成代码...
 LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/FORCE”规范)
 test.obj : warning LNK4006: AddContact 已在 Contact.obj 中定义；已忽略第二个定义
@@ -9,6 +17,7 @@ test.obj : warning LNK4006: CheackCapacity 已在 Contact.obj 中定义；已忽
 test.obj : warning LNK4006: DelContact 已在 Contact.obj 中定义；已忽略第二个定义
 test.obj : warning LNK4006: Initcontact 已在 Contact.obj 中定义；已忽略第二个定义
 test.obj : warning LNK4006: ModifyContact 已在 Contact.obj 中定义；已忽略第二个定义
+test.obj : warning LNK4006: SaveContact 已在 Contact.obj 中定义；已忽略第二个定义
 test.obj : warning LNK4006: SearchContact 已在 Contact.obj 中定义；已忽略第二个定义
 test.obj : warning LNK4006: ShowContact 已在 Contact.obj 中定义；已忽略第二个定义
 test.obj : warning LNK4006: compare 已在 Contact.obj 中定义；已忽略第二个定义

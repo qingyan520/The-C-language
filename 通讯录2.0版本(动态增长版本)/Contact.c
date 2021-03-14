@@ -1,4 +1,5 @@
 #include"Contact.h"
+#define _CRT_SECURE_NO_WARNINGS 1
 void Initcontact(struct Contact* ps)
 {
 	ps->data =(struct PeoInfo*) malloc(DEFAULT_SZ * sizeof(struct PeoInfo));
@@ -14,7 +15,7 @@ void CheackCapacity(struct Contact* ps)
 	if (ps->size ==ps->capacity)
 	{
 		//ÂúÁËÔöÈÝ
-		struct PenInfo *ptr=(struct PenInfo*)realloc(ps->data, (ps->capacity+ 2) * sizeof(struct PeoInfo));
+		struct PeoInfo *ptr=(struct PeoInfo*)realloc(ps->data, (ps->capacity+ 2) * sizeof(struct PeoInfo));
 		if (ptr != NULL)
 		{
 			ps->data = ptr;
@@ -169,5 +170,20 @@ int compare(void* a, void* b)
 {
 	return *(int*)a - *(int*)b;
 }
-
+void SaveContact(struct Contact* ps)
+{
+	FILE* pf = fopen_s("contact.bat", "wb",999);
+	if (pf == NULL)
+	{
+		//printf("%s\n", strerror(errno));
+		return;
+	}
+	int i = 0;
+	for ( i = 0; i < ps->size; i++)
+	{
+		fwrite(ps->data, sizeof(struct PeoInfo), 1, pf);
+	}
+	fclose(pf);
+	pf = NULL;
+}
 

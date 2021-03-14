@@ -13,6 +13,7 @@ void menu()
 	printf("\t\t|\t4.修改联系人               |\n");
 	printf("\t\t|\t5.显示联系人               |\n");
 	printf("\t\t|\t6.排序联系人               |\n");
+	printf("\t\t|\t7.保存联系人               |\n");
 	printf("\t\t ----------------------------------\n");
 }
 int main()
@@ -49,6 +50,8 @@ int main()
 			/*SortContact(&con);*/
 			//qsort(&con.data->name, MAX, NAME_MAX, compare);
 			break;
+		case SAVE:
+			SaveContact(&con);
 		default:
 			printf("输入错误，请重新输入\n");
 			printf("----------------------------------------------------------------------------------------------------------------------\n");

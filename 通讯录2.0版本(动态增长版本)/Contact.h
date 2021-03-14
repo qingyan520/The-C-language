@@ -2,6 +2,8 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
+#include<errno.h>
+//
 ////#define MAX 100
 #define NAME_MAX 20
 #define SEX_MAX 5
@@ -16,7 +18,8 @@ enum option
 	SEARCH,
 	MODIFY,
 	SHOW,
-	SORT
+	SORT,
+	SAVE
 };
 struct PeoInfo
 {
@@ -44,3 +47,6 @@ void SearchContact(const struct Contact* ps);
 
 void ModifyContact(struct Contact* ps);
 //void SortContact(struct Contact* ps);
+
+//保存数据到文件中
+void SaveContact(struct Contact* ps);
