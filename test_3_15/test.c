@@ -1,5 +1,5 @@
-﻿#define  _CRT_SECURE_NO_WARNINGS
-
+﻿//#define  _CRT_SECURE_NO_WARNINGS
+//
 //stdin--标准输入流
 //stdout--标准输出流
 //stderrno--标准错误输出流
@@ -28,7 +28,7 @@
 //	printf("%d", num);
 //	return 0;
 //}
-
+//
 //fgetc函数：适用于所有输入流
 //每次从文件中读取一个字母然后赋给ch，最终当文件结束的时候返回EOF
 //#include<stdio.h>
@@ -57,8 +57,8 @@
 //	printf("%c ", ch);
 //	return 0;
 //}
-
-
+//
+//
 //fputc:字符输出函数  适用于所有输出流
 //#include<stdio.h>
 //int main()
@@ -69,7 +69,7 @@
 //		fputc("h",pf);
 //	}
 //}
-
+//
 //fgets函数：文本行输入函数  适用于所有输入流
 //#include<stdio.h>
 //int main()
@@ -82,7 +82,7 @@
 //	pf=NULL;
 //	return 0;
 //}
-
+//
 //fprintf函数：格式化输出函数  适用于所有输出流 
 //语法：fprintf(stream,"输入数据的格式"，名字)(语法形式与printf相似)
 //流若为文件，则将内容显示到文件中
@@ -107,7 +107,7 @@
 //	pf = NULL;
 //	return 0;
 //}
-
+//
 //fscanf函数:格式化输入函数  适用于所有流
 //语法：fscanf(流，"数据类型"，&数据名)；
 //#include<stdio.h>
@@ -129,7 +129,7 @@
 //	}
 //	return 0;
 //}
-
+//
 //sprintf:将一个结构化的数据转化成字符串
 //sscanf:将一个字符串转化成结构化的数据
 //#include<stdio.h>
@@ -152,23 +152,23 @@
 //	printf("%s %d %f", temp.name, temp.age, temp.score);
 //	return 0;
 //}
-
-
+//
+//
 ///* fseek example */#include <stdio.h>int main (){  FILE * pFile;  pFile = fopen ( "example.txt" , "wb" );  fputs ( "This is an apple." , pFile );  fseek ( pFile , 9 , SEEK_SET );  fputs ( " sam" , pFile );  fclose ( pFile );  return 0;fseek
 //根据文件指针的位置和偏移量来定位文件指针。
 //例子：
 //int fseek(FILE* stream, long int offset, int origin)/* fseek example */
-#include <stdio.h>
-int main()
-{
-	FILE* pFile;
-	pFile = fopen("data.txt", "wb");
-	fputs("This is an apple.", pFile);
-	fseek(pFile, 9, SEEK_SET);
-	fputs(" sam", pFile);
-	fclose(pFile);
-	return 0;
-}
+//#include <stdio.h>
+//int main()
+//{
+//	FILE* pFile;
+//	pFile = fopen("data.txt", "wb");
+//	fputs("This is an apple.", pFile);
+//	fseek(pFile, 9, SEEK_SET);
+//	fputs(" sam", pFile);
+//	fclose(pFile);
+//	return 0;
+//}
 
 
 //文件结束的判定
@@ -180,3 +180,17 @@ int main()
 //      fgets判断是否为NULL
 //2.二进制文件的读取结束判断，判断返回值是否小于实际要读的个数
 //例如：fread判断返回值是否小于实际要读取的个数
+
+//scanf printf   函数是应用于标准输入流和输出流的格式化输入输出语句
+//fscanf  sprintf  函数是应用于所有输入流和输出流的格式化输入输出语句
+//sscanf  sprintf  函数是可以把结构化数据转化成字符串，也可以从字符串中读取结构化的数据
+
+//fwrite:
+//fread:
+//linux:
+#include<stdio.h>
+int main()
+{
+
+	return 0;
+}

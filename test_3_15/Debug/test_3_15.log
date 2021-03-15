@@ -1,2 +1,5 @@
-﻿  test.c
-  test_3_15.vcxproj -> C:\Users\史金伟\source\The-C-language\test_3_15\Debug\test_3_15.exe
+﻿  1.c
+  test.c
+  正在生成代码...
+test.obj : error LNK2005: _main 已经在 1.obj 中定义
+C:\Users\史金伟\source\The-C-language\test_3_15\Debug\test_3_15.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

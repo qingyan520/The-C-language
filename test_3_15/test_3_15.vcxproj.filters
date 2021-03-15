@@ -21,5 +21,8 @@
     <ClCompile Include="newc++file .c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

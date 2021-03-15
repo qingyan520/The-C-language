@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1.c" />
     <ClCompile Include="newc++file .c" />
     <ClCompile Include="test.c" />
   </ItemGroup>
