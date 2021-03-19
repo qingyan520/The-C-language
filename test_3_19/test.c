@@ -83,7 +83,7 @@
 
 //ifndef:
 #include<stdio.h>
-int main()
+int main1()
 {
 #ifndef HH
 	printf("hehe\n");
