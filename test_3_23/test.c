@@ -120,37 +120,67 @@
 //}
  
 
+//#include<stdio.h>
+//#include<math.h>
+//int main()
+//{
+//	int n = 0;
+//	scanf_s("%d", &n);
+//	for (int i = n; i>0; i--)
+//	{
+//		int flag = 0;
+//		for (int j = 2; j <=sqrt(i) ; j++)
+//		{
+//			if (i % j == 0)
+//			{
+//				flag += 1;
+//			}
+//		}
+//		if (flag != 0 && i == n)
+//		{
+//			printf("No\n");
+//		}
+//		if (flag == 0)
+//		{
+//			if (i == n)
+//			{
+//				printf("Yes\n");
+//			}
+//			else
+//			{
+//				printf("%d ", i);
+//			}
+//		}
+//	}
+//	return 0;
+//}
+
+
 #include<stdio.h>
-#include<math.h>
 int main()
 {
 	int n = 0;
+	int count = 0;
+	int arr[100] = { 0 };
 	scanf_s("%d", &n);
-	for (int i = n; i>0; i--)
+	int c = n;
+	if (n < 0)
 	{
-		int flag = 0;
-		for (int j = 2; j <=sqrt(i) ; j++)
-		{
-			if (i % j == 0)
-			{
-				flag += 1;
-			}
-		}
-		if (flag != 0 && i == n)
-		{
-			printf("No\n");
-		}
-		if (flag == 0)
-		{
-			if (i == n)
-			{
-				printf("Yes\n");
-			}
-			else
-			{
-				printf("%d ", i);
-			}
-		}
+		n = -n;
+	}
+	while (n)
+	{
+		arr[count] = n % 10;
+		n = n / 10;
+		count++;
+	}
+	for (int i = 0; i <count ; i++)
+	{
+		printf("%d ", arr[i]);
+	}
+	if (c < 0)
+	{
+		printf("-\n");
 	}
 	return 0;
 }
