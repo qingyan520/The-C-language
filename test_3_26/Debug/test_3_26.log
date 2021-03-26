@@ -1,0 +1,4 @@
+﻿  test.c
+C:\Users\史金伟\source\The-C-language\test_3_26\test.c(100,1): warning C4305: “初始化”: 从“double”到“float”截断
+C:\Users\史金伟\source\The-C-language\test_3_26\test.c(101,1): warning C4305: “初始化”: 从“double”到“float”截断
+  test_3_26.vcxproj -> C:\Users\史金伟\source\The-C-language\test_3_26\Debug\test_3_26.exe
