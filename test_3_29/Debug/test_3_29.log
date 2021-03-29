@@ -1,0 +1,17 @@
+﻿  test.c
+C:\Users\史金伟\source\The-C-language\test_3_29\test.c(15,28): error C2017: 非法的转义序列
+C:\Users\史金伟\source\The-C-language\test_3_29\test.c(15,29): error C3873: “0x2019”: 不允许将此字符作为标识符的第一个字符
+C:\Users\史金伟\source\The-C-language\test_3_29\test.c(15,29): error C2059: 语法错误:“数字上的错误后缀”
+C:\Users\史金伟\source\The-C-language\test_3_29\test.c(16,17): error C3872: “0x2019”: 此字符不允许在标识符中使用
+C:\Users\史金伟\source\The-C-language\test_3_29\test.c(16,21): error C2065: “c’”: 未声明的标识符
+C:\Users\史金伟\source\The-C-language\test_3_29\test.c(18,11): error C2001: 常量中有换行符
+C:\Users\史金伟\source\The-C-language\test_3_29\test.c(19,1): warning C4305: “=”: 从“int”到“char”截断
+C:\Users\史金伟\source\The-C-language\test_3_29\test.c(19,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+C:\Users\史金伟\source\The-C-language\test_3_29\test.c(22,15): error C3873: “0x201d”: 不允许将此字符作为标识符的第一个字符
+C:\Users\史金伟\source\The-C-language\test_3_29\test.c(22,15): error C3872: “0x201d”: 此字符不允许在标识符中使用
+C:\Users\史金伟\source\The-C-language\test_3_29\test.c(22,27): error C2065: “”abcdef””: 未声明的标识符
+C:\Users\史金伟\source\The-C-language\test_3_29\test.c(24,9): error C3873: “0x201c”: 不允许将此字符作为标识符的第一个字符
+C:\Users\史金伟\source\The-C-language\test_3_29\test.c(24,15): error C2065: ““str”: 未声明的标识符
+C:\Users\史金伟\source\The-C-language\test_3_29\test.c(24,16): error C2059: 语法错误:“]”
+C:\Users\史金伟\source\The-C-language\test_3_29\test.c(24,22): error C3872: “0x201d”: 此字符不允许在标识符中使用
+C:\Users\史金伟\source\The-C-language\test_3_29\test.c(22,1): error C2075: “str”: 初始化需要带括号的初始值设定项列表
