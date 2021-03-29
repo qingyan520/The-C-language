@@ -1,0 +1,6 @@
+﻿  test.c
+C:\Users\史金伟\source\The-C-language\test_3_28\test.c(7,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“char *”
+C:\Users\史金伟\source\The-C-language\test_3_28\test.c(8,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“char *”
+C:\Users\史金伟\source\The-C-language\test_3_28\test.c(5,1): warning C4048: “char (*)[3]”和“char (*)[5]”数组的下标不同
+C:\Users\史金伟\source\The-C-language\test_3_28\test.c(6,1): warning C4047: “初始化”:“char (*)[0]”与“char *”的间接级别不同
+  test_3_28.vcxproj -> C:\Users\史金伟\source\The-C-language\test_3_28\Debug\test_3_28.exe
