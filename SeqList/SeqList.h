@@ -28,4 +28,10 @@ void SeqListCheckCapacity(SeqList* pq);//已写
 void SeqListInit(SeqList* pq);//已写
 //销毁线性表
 void SeqListDestory(SeqList* pq);//已写
+// 顺序表查找
+void SeqListFind(SeqList* ps, SeqDateType x);
+// 顺序表在pos位置插入x
+void SeqListInsert(SeqList* ps, size_t pos, SeqDateType x);
+// 顺序表删除pos位置的值
+//void SeqListErase(SeqList* ps, size_t pos);
 

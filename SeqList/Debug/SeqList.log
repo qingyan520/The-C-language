@@ -1,2 +1,3 @@
-﻿  test.c
+﻿  SeqList.c
+C:\Users\史金伟\source\The-C-language\SeqList\SeqList.c(152,15): warning C4018: “<”: 有符号/无符号不匹配
   SeqList.vcxproj -> C:\Users\史金伟\source\The-C-language\SeqList\Debug\SeqList.exe
