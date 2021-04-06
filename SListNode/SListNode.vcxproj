@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="SList.c" />
     <ClCompile Include="test.c" />
+    <ClCompile Include="源.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SList.h" />
