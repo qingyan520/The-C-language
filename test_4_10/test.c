@@ -51,8 +51,8 @@
  * };
  */
 
-
-struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2) {
+//
+//struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2) {
     //     //方法1：与合并两个有序数组类似，定义一个新的头结点，然后每次让val中较小值追加到头结点之后
     //     //1.首先判断l1,l2是否为空，如果l1为空，返回l2,l2为空返回l1
     //    if(l1==NULL)
@@ -134,3 +134,20 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2) {
 //}
 
 
+//输入平面中的两个点坐标 求两点之间的距离
+#include <stdio.h>
+#include <stdlib.h>
+#include<math.h>
+    int main()
+    {
+        double x1, x2, y1, y2;
+        scanf_s("(%lf,%lf)\n", &x1, &y1);
+        scanf_s("(%lf,%lf)", &x2, &y2);
+        int b, c;
+        int a = (b = 4) + (c = 6);
+        double s = sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+        //两点间距离公式
+        printf("%lf\n", s);
+        system("pause");
+        return 0;
+    }
