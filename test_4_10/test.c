@@ -135,19 +135,38 @@
 
 
 //输入平面中的两个点坐标 求两点之间的距离
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include<math.h>
+//    int main()
+//    {
+//        double x1, x2, y1, y2;
+//        scanf_s("(%lf,%lf)\n", &x1, &y1);
+//        scanf_s("(%lf,%lf)", &x2, &y2);
+//        int b, c;
+//        int a = (b = 4) + (c = 6);
+//        double s = sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+//        //两点间距离公式
+//        printf("%lf\n", s);
+//        system("pause");
+//        return 0;
+//    }
+
+
 #include <stdio.h>
-#include <stdlib.h>
-#include<math.h>
-    int main()
-    {
-        double x1, x2, y1, y2;
-        scanf_s("(%lf,%lf)\n", &x1, &y1);
-        scanf_s("(%lf,%lf)", &x2, &y2);
-        int b, c;
-        int a = (b = 4) + (c = 6);
-        double s = sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
-        //两点间距离公式
-        printf("%lf\n", s);
-        system("pause");
-        return 0;
-    }
+int main()
+{
+    int a, b, c, d, e, f;
+    double x, y;
+    int g, h, j;
+    printf("按照  Ax+By=C;Dx+Ey=F  的格式输入方程组:\n");
+    scanf_s("%dx+%dy=%d\n", &a, &b, &c);
+    scanf_s("%dx+%dy=%d", &d, &e, &f);
+    g = c * e - b * f;
+    h = a * f - c * d;
+    j = a * e - b * d;
+    y = h / j;
+    x = g / j;
+    printf("x=%.2f y=%.2f", x, y);
+    return 0;
+}

@@ -1,0 +1,4 @@
+﻿  test.c
+C:\Users\史金伟\source\The-C-language\test_4_11\test.c(37,11): warning C4047: “函数”:“int **”与“int (*)[10]”的间接级别不同
+C:\Users\史金伟\source\The-C-language\test_4_11\test.c(37,7): warning C4024: “func”: 形参和实参 1 的类型不同
+  test_4_11.vcxproj -> C:\Users\史金伟\source\The-C-language\test_4_11\Debug\test_4_11.exe
