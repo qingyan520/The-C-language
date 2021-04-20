@@ -1,0 +1,4 @@
+﻿  6.链表结点的删除.c
+C:\Users\史金伟\source\repos\链表\6.链表结点的删除.c(15,39): warning C4013: “malloc”未定义；假设外部返回 int
+C:\Users\史金伟\source\repos\链表\6.链表结点的删除.c(38,6): warning C4013: “free”未定义；假设外部返回 int
+  链表.vcxproj -> C:\Users\史金伟\source\repos\链表\Debug\链表.exe
