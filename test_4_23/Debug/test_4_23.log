@@ -1,0 +1,9 @@
+﻿  test.c
+C:\Users\史金伟\source\The-C-language\test_4_23\test.c(64,18): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\史金伟\source\The-C-language\test_4_23\test.c(65,14): warning C4305: “=”: 从“double”到“float”截断
+C:\Users\史金伟\source\The-C-language\test_4_23\test.c(65,33): warning C4305: “-=”: 从“double”到“float”截断
+C:\Users\史金伟\source\The-C-language\test_4_23\test.c(67,31): warning C4305: “+=”: 从“double”到“float”截断
+C:\Users\史金伟\source\The-C-language\test_4_23\test.c(113,15): warning C4305: “=”: 从“double”到“float”截断
+C:\Users\史金伟\source\The-C-language\test_4_23\test.c(113,34): warning C4305: “-=”: 从“double”到“float”截断
+C:\Users\史金伟\source\The-C-language\test_4_23\test.c(115,32): warning C4305: “+=”: 从“double”到“float”截断
+  test_4_23.vcxproj -> C:\Users\史金伟\source\The-C-language\test_4_23\Debug\test_4_23.exe
