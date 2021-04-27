@@ -1,0 +1,6 @@
+﻿  test.c
+C:\Users\史金伟\source\The-C-language\test_4_27\test.c(5,18): warning C4477: “scanf_s”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“char *”
+C:\Users\史金伟\source\The-C-language\test_4_27\test.c(5,18): message : 请考虑在格式字符串中使用“%hhd”
+C:\Users\史金伟\source\The-C-language\test_4_27\test.c(5,28): warning C4474: scanf_s: 格式字符串中传递的参数太多
+C:\Users\史金伟\source\The-C-language\test_4_27\test.c(5,28): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+  test_4_27.vcxproj -> C:\Users\史金伟\source\The-C-language\test_4_27\Debug\test_4_27.exe
