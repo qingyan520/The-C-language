@@ -1,0 +1,5 @@
+﻿  test.c
+C:\Users\史金伟\source\The-C-language\test_4_28\test.c(80,13): warning C4013: “fmax”未定义；假设外部返回 int
+C:\Users\史金伟\source\The-C-language\test_4_28\test.c(27): warning C4715: “CreatBinaryTreeNode”: 不是所有的控件路径都返回值
+C:\Users\史金伟\source\The-C-language\test_4_28\test.c(113): warning C4715: “BinaryTreeFind”: 不是所有的控件路径都返回值
+  test_4_28.vcxproj -> C:\Users\史金伟\source\The-C-language\test_4_28\Debug\test_4_28.exe
