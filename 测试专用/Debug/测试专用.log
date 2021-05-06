@@ -1,0 +1,5 @@
+﻿  C语言测试专用.c
+C:\Users\史金伟\source\repos\测试专用\C语言测试专用.c(13,39): warning C4013: “malloc”未定义；假设外部返回 int
+C:\Users\史金伟\source\repos\测试专用\C语言测试专用.c(16,30): warning C4047: “!=”:“int”与“void *”的间接级别不同
+C:\Users\史金伟\source\repos\测试专用\C语言测试专用.c(35,6): warning C4013: “free”未定义；假设外部返回 int
+  测试专用.vcxproj -> C:\Users\史金伟\source\repos\测试专用\Debug\测试专用.exe
