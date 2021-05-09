@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "排序算法合集", "排序算法合集.vcxproj", "{8AC54C4F-B0A5-4F82-A501-776A1022E10D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AC54C4F-B0A5-4F82-A501-776A1022E10D}.Debug|x64.ActiveCfg = Debug|x64
+		{8AC54C4F-B0A5-4F82-A501-776A1022E10D}.Debug|x64.Build.0 = Debug|x64
+		{8AC54C4F-B0A5-4F82-A501-776A1022E10D}.Debug|x86.ActiveCfg = Debug|Win32
+		{8AC54C4F-B0A5-4F82-A501-776A1022E10D}.Debug|x86.Build.0 = Debug|Win32
+		{8AC54C4F-B0A5-4F82-A501-776A1022E10D}.Release|x64.ActiveCfg = Release|x64
+		{8AC54C4F-B0A5-4F82-A501-776A1022E10D}.Release|x64.Build.0 = Release|x64
+		{8AC54C4F-B0A5-4F82-A501-776A1022E10D}.Release|x86.ActiveCfg = Release|Win32
+		{8AC54C4F-B0A5-4F82-A501-776A1022E10D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {776E1BBB-5488-4522-934A-EE962CC2CB75}
+	EndGlobalSection
+EndGlobal
