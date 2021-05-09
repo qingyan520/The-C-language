@@ -21,5 +21,8 @@
     <ClCompile Include="2.选择排序.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="排序算法练习1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

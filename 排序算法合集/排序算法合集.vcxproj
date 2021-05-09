@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="1.插入排序.c" />
     <ClCompile Include="2.选择排序.c" />
+    <ClCompile Include="排序算法练习1.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
