@@ -57,7 +57,7 @@
 //	{
 //		int minIndex = left;
 //		int maxIndex = left;
-//		for (int i = left; i < right; i++)
+//		for (int i = left; i <= right; i++)
 //		{
 //			if (arr[i] < arr[minIndex])
 //			{
