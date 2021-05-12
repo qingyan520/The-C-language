@@ -33,5 +33,8 @@
     <ClCompile Include="4.归并排序.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="快排的非递归版本.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

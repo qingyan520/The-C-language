@@ -23,6 +23,7 @@
     <ClCompile Include="2.选择排序.c" />
     <ClCompile Include="3.交换排序.c" />
     <ClCompile Include="4.归并排序.c" />
+    <ClCompile Include="快排的非递归版本.cpp" />
     <ClCompile Include="排序算法练习1.c" />
     <ClCompile Include="排序算法练习2.c" />
   </ItemGroup>
