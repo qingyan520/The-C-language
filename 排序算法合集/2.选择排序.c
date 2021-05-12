@@ -108,7 +108,7 @@
 //	*a = *b;
 //	*b = temp;
 //}
-////建立大堆
+//建立大堆
 //void AdjustDown(int* arr, int parent, int n)
 //{
 //	int child = parent * 2 + 1;
@@ -132,12 +132,12 @@
 //}
 //void HeapSort(int* arr, int n)
 //{
-//	//1.先建立大堆
+//	1.先建立大堆
 //	for (int i = (n-1-1)/2; i >= 0; i--)
 //	{
 //		AdjustDown(arr, i, n);
 //	}
-//	//2.交换第一个元素位置和最后一个元素位置，--end，然后使用向下调整算法继续调整
+//	2.交换第一个元素位置和最后一个元素位置，--end，然后使用向下调整算法继续调整
 //	int end = n - 1;
 //	while (end >0)
 //	{
