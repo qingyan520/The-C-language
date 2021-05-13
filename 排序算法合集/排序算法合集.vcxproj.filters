@@ -36,5 +36,8 @@
     <ClCompile Include="快排的非递归版本.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="排序算法练习3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

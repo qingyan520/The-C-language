@@ -26,6 +26,7 @@
     <ClCompile Include="快排的非递归版本.cpp" />
     <ClCompile Include="排序算法练习1.c" />
     <ClCompile Include="排序算法练习2.c" />
+    <ClCompile Include="排序算法练习3.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
