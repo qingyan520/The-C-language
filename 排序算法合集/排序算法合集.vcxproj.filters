@@ -39,5 +39,11 @@
     <ClCompile Include="排序算法练习3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="源.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5.计数排序.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -23,10 +23,12 @@
     <ClCompile Include="2.选择排序.c" />
     <ClCompile Include="3.交换排序.c" />
     <ClCompile Include="4.归并排序.c" />
+    <ClCompile Include="5.计数排序.c" />
     <ClCompile Include="快排的非递归版本.cpp" />
     <ClCompile Include="排序算法练习1.c" />
     <ClCompile Include="排序算法练习2.c" />
     <ClCompile Include="排序算法练习3.cpp" />
+    <ClCompile Include="源.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
