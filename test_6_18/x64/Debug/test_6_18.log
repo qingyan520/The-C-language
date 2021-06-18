@@ -1,0 +1,4 @@
+﻿  test.c
+C:\Users\史金伟\source\The-C-language\test_6_18\test.c(130,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\史金伟\source\The-C-language\test_6_18\test.c(141,6): warning C4013: “gets”未定义；假设外部返回 int
+  test_6_18.vcxproj -> C:\Users\史金伟\source\The-C-language\test_6_18\x64\Debug\test_6_18.exe
