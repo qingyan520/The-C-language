@@ -1,0 +1,23 @@
+﻿  Contact.c
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,34): warning C4047: “函数”:“FILE **”与“char [12]”的间接级别不同
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,21): warning C4024: “fopen_s”: 形参和实参 1 的类型不同
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,44): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,41): warning C4024: “fopen_s”: 形参和实参 3 的类型不同
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,1): warning C4047: “初始化”:“FILE *”与“errno_t”的间接级别不同
+  test.c
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,34): warning C4047: “函数”:“FILE **”与“char [12]”的间接级别不同
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,21): warning C4024: “fopen_s”: 形参和实参 1 的类型不同
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,44): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,41): warning C4024: “fopen_s”: 形参和实参 3 的类型不同
+C:\Users\史金伟\source\The-C-language\通讯录2.0版本(动态增长版本)\Contact.c(175,1): warning C4047: “初始化”:“FILE *”与“errno_t”的间接级别不同
+  正在生成代码...
+test.obj : error LNK2005: AddContact 已经在 Contact.obj 中定义
+test.obj : error LNK2005: CheackCapacity 已经在 Contact.obj 中定义
+test.obj : error LNK2005: DelContact 已经在 Contact.obj 中定义
+test.obj : error LNK2005: Initcontact 已经在 Contact.obj 中定义
+test.obj : error LNK2005: ModifyContact 已经在 Contact.obj 中定义
+test.obj : error LNK2005: SaveContact 已经在 Contact.obj 中定义
+test.obj : error LNK2005: SearchContact 已经在 Contact.obj 中定义
+test.obj : error LNK2005: ShowContact 已经在 Contact.obj 中定义
+test.obj : error LNK2005: compare 已经在 Contact.obj 中定义
+C:\Users\史金伟\source\The-C-language\通讯录3.0版本(文件版本)\x64\Debug\通讯录3.0版本(文件版本).exe : fatal error LNK1169: 找到一个或多个多重定义的符号
