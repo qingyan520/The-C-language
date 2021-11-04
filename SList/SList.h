@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<assert.h>
+#include<stdbool.h>
 typedef int SListDataType;
 typedef struct SListNode
 {
@@ -15,3 +16,4 @@ void SListPrint(SListNode* phead);//打印数据
 void SListPushFront(SListNode** phead, SListDataType x);//头部插入数据
 void SListPopFront(SListNode** phead);//头部删除数据
 
+bool adjust(SListNode** head);

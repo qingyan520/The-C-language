@@ -5,13 +5,23 @@
 void test01()
 {
 	SListNode* plist = NULL;
+	SListPushBack(&plist, 0);
 	SListPushBack(&plist, 1);
 	SListPushBack(&plist, 2);
-	SListPushBack(&plist, 3);
+	SListPushBack(&plist, 7);
 	SListPushBack(&plist, 4);
 	SListPushBack(&plist, 5);
 	SListPushBack(&plist, 6);
-	SListPrint(plist);
+	//SListPrint(plist);
+	bool ret = adjust(&plist);
+	if (ret)
+	{
+		printf("是等差单链表\n");
+	}
+	else
+	{
+		printf("不是等差单链表\n");
+	}
 }
 int main()
 {
