@@ -71,8 +71,9 @@ void SeqListPrint(SeqList* pq)
 	assert(pq);
 	for (int i = 0; i < pq->size; i++)
 	{
-		printf("%d\n", pq->a[i]);
+		printf("%d ", pq->a[i]);
 	}
+	printf("\n");
 }
 //销毁数据
 void SeqListDestory(SeqList* pq)
@@ -109,13 +110,10 @@ void SeqListFind(SeqList* ps, SeqDateType x)
 void SeqListInsert(SeqList* ps, size_t pos, SeqDateType x)
 {
 	assert(ps);
-	//assert(pos<=ps->size);
+	assert(pos<=ps->size&&pos>=0);
 
 	SeqListCheckCapacity(ps);
-	if (pos == 0)
-	{
 
-	}
 
 	//int end = ps->size - 1;
 	//while (end >= (int)pos)
@@ -148,11 +146,122 @@ void SeqListErase(SeqList* ps, size_t pos)
 	//}
 	//asserr(ps);
 	//assert(pos >=0 && pos<=ps.size);
-	size_t start = pos + 1;
-	while (start < ps->size)
+	if (pos == -1)
 	{
-		ps->a[start - 1] = ps->a[start];
-		++start;
+		printf("未找到该元素\n");
 	}
-	ps->size--;
+	else
+	{
+		size_t start = pos + 1;
+		while (start<ps->size)
+		{
+			ps->a[start - 1] = ps->a[start];
+			++start;
+		}
+		ps->size--;
+	}
+}
+
+void SeqListPush_Init(SeqList* ps)
+{
+	for (int i = 0; i < 50; i++)
+	{
+		
+		int val = rand() % 11;
+		if (val % 2 == 0)
+		{
+			SeqListPushBack(ps, val);
+		}
+	}
+}
+
+
+
+void Swap(int* a, int* b)
+{
+	int temp = *a;
+	*a = *b;
+	*b = temp;
+}
+int GetMid(int* arr, int left, int right)
+{
+	int mid = (left + right) / 2;
+	if ((arr[mid] - arr[right]) * (arr[mid] - arr[left]) <= 0)
+	{
+		return mid;
+	}
+	else if ((arr[left] - arr[mid]) * (arr[left] - arr[right]) <= 0)
+	{
+		return left;
+	}
+	else
+	{
+		return right;
+	}
+}
+
+
+void QuickSort(int* arr, int begin, int end)
+{
+	if (begin >= end)
+	{
+		return;
+	}
+	int left = begin, right = end;
+	int mid = GetMid(arr, left, right);
+	Swap(&arr[left], &arr[mid]);
+	int key = begin;
+	while (left < right)
+	{
+		while (left < right && arr[right] >= arr[key])
+		{
+			right--;
+		}
+		while (left < right && arr[left] <= arr[key])
+		{
+			left++;
+		}
+		Swap(&arr[left], &arr[right]);
+	}
+	Swap(&arr[key], &arr[left]);
+	QuickSort(arr, begin, left - 1);
+	QuickSort(arr, left + 1, end);
+}
+
+
+//排序算法套用快排+三数取中法
+void SeqList_Sort(SeqList* ps)
+{
+	QuickSort(ps->a, 0, ps->size - 1);
+}
+
+void SeqListSize(SeqList* ps)
+{
+	printf("该线性表长度为:%d\n", ps->size);
+}
+
+void SeqListNumberSearch(SeqList* ps)
+{
+	int index;
+	printf("请输入要查找元素的下标:\n");
+	scanf_s("%d", &index);
+	if (index < 0 || index >= ps->size)
+	{
+		printf("查无此数\n");
+	}
+	else
+	{
+		printf("该数为：%d\n", ps->a[index]);
+	}
+}
+
+
+int SeqListSearch(SeqList* ps, int x)
+{
+	for (int i = 0; i < ps->size; i++)
+	{
+		if (ps->a[i] == x)
+			return i;
+	}
+	return -1;
 }

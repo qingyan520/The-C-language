@@ -3,6 +3,8 @@
 #include<stdlib.h>
 #include<string.h>
 #include<assert.h>
+#include<time.h>
+#include<Windows.h>
 typedef int SeqDateType;
 typedef struct SeqList
 {
@@ -33,5 +35,16 @@ void SeqListFind(SeqList* ps, SeqDateType x);
 // 顺序表在pos位置插入x
 void SeqListInsert(SeqList* ps, size_t pos, SeqDateType x);
 // 顺序表删除pos位置的值
-//void SeqListErase(SeqList* ps, size_t pos);
+void SeqListErase(SeqList* ps, size_t pos);
+//初始化时产生50个随机数，将其中的偶数插入到顺序表中
+void SeqListPush_Init(SeqList* ps);
 
+//排序
+void QuickSort(int* arr, int begin, int end);
+void SeqList_Sort(SeqList* ps);
+//求长度
+void SeqListSize(SeqList* ps);
+//按照下标查找
+void SeqListNumberSearch(SeqList* ps);
+
+int SeqListSearch(SeqList* ps, int x);
