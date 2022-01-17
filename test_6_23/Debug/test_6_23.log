@@ -1,0 +1,4 @@
+﻿  test.c
+C:\Users\史金伟\source\The-C-language\test_6_23\test.c(88,16): warning C4018: “<=”: 有符号/无符号不匹配
+C:\Users\史金伟\source\The-C-language\test_6_23\test.c(103,6): warning C4013: “gets”未定义；假设外部返回 int
+  test_6_23.vcxproj -> C:\Users\史金伟\source\The-C-language\test_6_23\Debug\test_6_23.exe
