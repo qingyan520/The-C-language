@@ -1,0 +1,7 @@
+﻿  test.c
+C:\Users\史金伟\source\The-C-language\test_7_1\test.c(59,25): warning C4047: “函数”:“double **”与“double [20][20]”的间接级别不同
+C:\Users\史金伟\source\The-C-language\test_7_1\test.c(59,21): warning C4024: “Determinant”: 形参和实参 1 的类型不同
+C:\Users\史金伟\source\The-C-language\test_7_1\test.c(189,27): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\史金伟\source\The-C-language\test_7_1\test.c(163,6): warning C4101: “tmp”: 未引用的局部变量
+C:\Users\史金伟\source\The-C-language\test_7_1\test.c(305,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
+  test_7_1.vcxproj -> C:\Users\史金伟\source\The-C-language\test_7_1\Debug\test_7_1.exe
